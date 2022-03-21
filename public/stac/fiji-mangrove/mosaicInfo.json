@@ -1,0 +1,27 @@
+{
+  "mosaics": [
+    {
+      "name": "2020",
+      "description": "",
+      "dep": true,
+      "format": "mosaicjson",
+      "url": "https://deppcpublicstorage.blob.core.windows.net/output/demo/mangrove-fiji-mosaic.json",
+      "cql": [
+        { "lte": [{ "property": "datetime" }, "2020-01-01"] }
+      ]
+    }   
+  ],
+  "renderOptions": [
+    {
+      "name": "Single Band",
+      "description": "Single Band",
+      "options": "bidx=1&colormap_name=dark2&return_mask=true",
+      "minZoom": 3
+    }
+  ],
+  "defaultLocation": {
+    "zoom": 3,
+    "coordinates": [177.221875, 1.9332268264771233]
+  }
+}
+

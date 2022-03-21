@@ -1,5 +1,7 @@
 ## How to add custom data layer
 
+0. Upload GeoTiff out to Blob Storage and generate Mosiacs - https://github.com/PacificCommunity/DigitalEarthPacific/blob/main/notebooks/make_mosaics.ipynb
+
 1. Copy an item of the array from `/public/data/dep-data.json` and edit the attributes as needed. Put this item as a new item of the array. Let's say have a new item like below.
 
 ```

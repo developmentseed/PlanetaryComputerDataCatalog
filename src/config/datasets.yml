@@ -34,6 +34,9 @@ collections:
   sentinel-2-cloudless:
     category: Digital Earth Pacific
 
+  fiji-mangrove:
+    category: Digital Earth Pacific
+
   3dep-seamless:
     category: DEMs
     hide: true
