@@ -1,0 +1,47 @@
+{
+  "mosaics": [
+    {
+      "name": "2000",
+      "description": "Pacific Mangroves 30m 2000",
+      "dep": true,
+      "format": "mosaicjson",
+      "url": "https://deppcpublicstorage.blob.core.windows.net/output/mangroves/pacific_mangroves_2000.json",
+      "_cql_": [
+        { "lte": [{ "property": "datetime" }, "2000-01-01"] }
+      ]
+    },
+    {
+      "name": "2007",
+      "description": "Pacific Mangroves 30m 2000",
+      "dep": true,
+      "format": "mosaicjson",
+      "url": "https://deppcpublicstorage.blob.core.windows.net/output/mangroves/pacific_mangroves_2007.json",
+      "_cql_": [
+        { "lte": [{ "property": "datetime" }, "2007-01-01"] }
+      ]
+    },
+    {
+      "name": "2016",
+      "description": "Pacific Mangroves 30m 2000",
+      "dep": true,
+      "format": "mosaicjson",
+      "url": "https://deppcpublicstorage.blob.core.windows.net/output/mangroves/pacific_mangroves_2016.json",
+      "_cql_": [
+        { "lte": [{ "property": "datetime" }, "2016-01-01"] }
+      ]
+    }         
+  ],
+  "renderOptions": [
+    {
+      "name": "Single Band",
+      "description": "Single Band",
+      "options": "bidx=1&colormap_name=dark2&nodata=0&unscale=false&resampling=nearest&max_size=1024&return_mask=true",
+      "minZoom": 3
+    }
+  ],
+  "defaultLocation": {
+    "zoom": 3,
+    "coordinates": [177.221875, 1.9332268264771233]
+  }
+}
+

@@ -31,12 +31,24 @@
 
 ---
 collections:
-  sentinel-2-cloudless:
+  #sentinel-2-cloudless:
+  #  category: Digital Earth Pacific
+
+  pacific-sipi:
+    category: Digital Earth Pacific
+
+  pacific-gci:
+    category: Digital Earth Pacific
+
+  pacific-evi:
+    category: Digital Earth Pacific
+
+  pacific-mangrove:
     category: Digital Earth Pacific
 
   fiji-mangrove:
     category: Digital Earth Pacific
-
+  
   3dep-seamless:
     category: DEMs
     hide: true

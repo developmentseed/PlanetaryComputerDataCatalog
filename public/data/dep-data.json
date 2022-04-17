@@ -76,7 +76,7 @@
         "id": "fiji-mangrove",
         "type": "Collection",
         "links": [],
-        "title": "Fiji Mangrove GMW",
+        "title": "Fiji Mangroves (Beta)",
         "assets": {},
         "extent": {
             "spatial": {
@@ -95,6 +95,306 @@
                     [
                        "2020-01-01T06:00:00.000000Z",
                        "2020-01-01T12:00:00.000000Z"
+                    ]
+                ]
+            }
+            
+        },
+        "license": "proprietary",
+        "keywords": [
+            "dep"
+        ],
+        "providers": [
+            {
+                "url": "https://www.spc.int/DigitalEarthPacific",
+                "name": "Digital Earth Pacific",
+                "roles": [
+                    "producer",
+                    "licensor"
+                ]
+            }
+        ],
+        "summaries": {},
+        "description": "Digital Earth Pacific data",
+        "item_assets": {
+            "TIR": {},
+            "xml": {
+                "type": "application/xml",
+                "roles": [
+                    "metadata"
+                ],
+                "title": "XML metadata"
+            },
+            "SWIR": {
+                "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+                "roles": [
+                    "data"
+                ],
+                "title": "SWIR Swath data",
+                "eo:bands": []
+            },
+            "VNIR": {},
+            "qa-txt": {},
+            "qa-browse": {},
+            "tir-browse": {},
+            "vnir-browse": {}
+        },
+        "stac_version": "1.0.0",
+        "msft:container": "aster",
+        "stac_extensions": [
+            "https://stac-extensions.github.io/item-assets/v1.0.0/schema.json"
+        ],
+        "msft:storage_account": "astersa",
+        "msft:short_description": "Digital Earth Pacific data"
+    },
+    {
+        "id": "pacific-mangrove",
+        "type": "Collection",
+        "links": [],
+        "title": "Pacific Mangroves (30m)",
+        "assets": {},
+        "extent": {
+            "spatial": {
+                "bbox": [
+                    [
+                        139.99988021993752,
+		                -38.797782873982534,
+		                179.46160748871858,
+		                10.000217121137617
+                    ]
+                ]
+            },
+            
+            "temporal": {
+                "interval": [
+                    [
+                       "2000-01-01T06:00:00.000000Z",
+                       "2020-01-01T12:00:00.000000Z"
+                    ]
+                ]
+            }
+            
+        },
+        "license": "proprietary",
+        "keywords": [
+            "dep"
+        ],
+        "providers": [
+            {
+                "url": "https://www.spc.int/DigitalEarthPacific",
+                "name": "Digital Earth Pacific",
+                "roles": [
+                    "producer",
+                    "licensor"
+                ]
+            }
+        ],
+        "summaries": {},
+        "description": "Digital Earth Pacific data",
+        "item_assets": {
+            "TIR": {},
+            "xml": {
+                "type": "application/xml",
+                "roles": [
+                    "metadata"
+                ],
+                "title": "XML metadata"
+            },
+            "SWIR": {
+                "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+                "roles": [
+                    "data"
+                ],
+                "title": "SWIR Swath data",
+                "eo:bands": []
+            },
+            "VNIR": {},
+            "qa-txt": {},
+            "qa-browse": {},
+            "tir-browse": {},
+            "vnir-browse": {}
+        },
+        "stac_version": "1.0.0",
+        "msft:container": "aster",
+        "stac_extensions": [
+            "https://stac-extensions.github.io/item-assets/v1.0.0/schema.json"
+        ],
+        "msft:storage_account": "astersa",
+        "msft:short_description": "Digital Earth Pacific data"
+    },
+    {
+        "id": "pacific-evi",
+        "type": "Collection",
+        "links": [],
+        "title": "Pacific Enhanced Vegetation Index (EVI)",
+        "assets": {},
+        "extent": {
+            "spatial": {
+                "bbox": [
+                    [
+                        -176.06846052061059,
+		                -23.598489336817742,
+		                179.95960610262225,
+		                4.521418008646105e-05
+                    ]
+                ]
+            },
+            
+            "temporal": {
+                "interval": [
+                    [
+                       "2022-01-01T06:00:00.000000Z",
+                       "2022-04-30T12:00:00.000000Z"
+                    ]
+                ]
+            }
+            
+        },
+        "license": "proprietary",
+        "keywords": [
+            "dep"
+        ],
+        "providers": [
+            {
+                "url": "https://www.spc.int/DigitalEarthPacific",
+                "name": "Digital Earth Pacific",
+                "roles": [
+                    "producer",
+                    "licensor"
+                ]
+            }
+        ],
+        "summaries": {},
+        "description": "Digital Earth Pacific data",
+        "item_assets": {
+            "TIR": {},
+            "xml": {
+                "type": "application/xml",
+                "roles": [
+                    "metadata"
+                ],
+                "title": "XML metadata"
+            },
+            "SWIR": {
+                "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+                "roles": [
+                    "data"
+                ],
+                "title": "SWIR Swath data",
+                "eo:bands": []
+            },
+            "VNIR": {},
+            "qa-txt": {},
+            "qa-browse": {},
+            "tir-browse": {},
+            "vnir-browse": {}
+        },
+        "stac_version": "1.0.0",
+        "msft:container": "aster",
+        "stac_extensions": [
+            "https://stac-extensions.github.io/item-assets/v1.0.0/schema.json"
+        ],
+        "msft:storage_account": "astersa",
+        "msft:short_description": "Digital Earth Pacific data"
+    },
+    {
+        "id": "pacific-gci",
+        "type": "Collection",
+        "links": [],
+        "title": "Pacific Crop Health (GCI)",
+        "assets": {},
+        "extent": {
+            "spatial": {
+                "bbox": [
+                    [
+                        -176.06846052061059,
+		                -23.598489336817742,
+		                179.95960610262225,
+		                4.521418008646105e-05
+                    ]
+                ]
+            },
+            
+            "temporal": {
+                "interval": [
+                    [
+                       "2022-01-01T06:00:00.000000Z",
+                       "2022-04-30T12:00:00.000000Z"
+                    ]
+                ]
+            }
+            
+        },
+        "license": "proprietary",
+        "keywords": [
+            "dep"
+        ],
+        "providers": [
+            {
+                "url": "https://www.spc.int/DigitalEarthPacific",
+                "name": "Digital Earth Pacific",
+                "roles": [
+                    "producer",
+                    "licensor"
+                ]
+            }
+        ],
+        "summaries": {},
+        "description": "Digital Earth Pacific data",
+        "item_assets": {
+            "TIR": {},
+            "xml": {
+                "type": "application/xml",
+                "roles": [
+                    "metadata"
+                ],
+                "title": "XML metadata"
+            },
+            "SWIR": {
+                "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+                "roles": [
+                    "data"
+                ],
+                "title": "SWIR Swath data",
+                "eo:bands": []
+            },
+            "VNIR": {},
+            "qa-txt": {},
+            "qa-browse": {},
+            "tir-browse": {},
+            "vnir-browse": {}
+        },
+        "stac_version": "1.0.0",
+        "msft:container": "aster",
+        "stac_extensions": [
+            "https://stac-extensions.github.io/item-assets/v1.0.0/schema.json"
+        ],
+        "msft:storage_account": "astersa",
+        "msft:short_description": "Digital Earth Pacific data"
+    },
+    {
+        "id": "pacific-sipi",
+        "type": "Collection",
+        "links": [],
+        "title": "Pacific Crop Disease Detection (SIPI)",
+        "assets": {},
+        "extent": {
+            "spatial": {
+                "bbox": [
+                    [
+                        -176.06846052061059,
+		                -23.598489336817742,
+		                179.95960610262225,
+		                4.521418008646105e-05
+                    ]
+                ]
+            },
+            
+            "temporal": {
+                "interval": [
+                    [
+                       "2022-01-01T06:00:00.000000Z",
+                       "2022-04-30T12:00:00.000000Z"
                     ]
                 ]
             }
