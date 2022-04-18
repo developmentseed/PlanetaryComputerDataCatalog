@@ -35,7 +35,7 @@
     {
       "name": "Single Band",
       "description": "Single Band",
-      "options": "bidx=1&colormap_name=dark2&nodata=0&unscale=false&resampling=nearest&max_size=1024&return_mask=true",
+      "options": "bidx=1&colormap_name=dark2&nodata=0&unscale=false&resampling=nearest&max_size=1024&return_mask=true&rescale=0,1",
       "minZoom": 3
     }
   ],
