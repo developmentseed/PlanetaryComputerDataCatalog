@@ -1,0 +1,28 @@
+{
+  "mosaics": [
+    {
+      "name": "2022",
+      "description": "Pacific EVI 2022",
+      "dep": true,
+      "format": "mosaicjson",
+      "url": "https://deppcpublicstorage.blob.core.windows.net/output/evi/pacific-evi-mosaic.json",      
+      "_cql_": [
+        { "lte": [{ "property": "datetime" }, "2022-01-01"] }
+      ]
+    }   
+  ],
+  "renderOptions": [
+    {
+      "name": "Low Laying Vegetation (EVI) (50m)",
+      "description": "Single Band",
+      "options": "colormap_name=rdylgn&bidx=1&rescale=-1,1&nodata=0",
+      "minZoom": 3
+    }
+  ],
+  "defaultLocation": {
+    "zoom": 3,
+    "coordinates": [177.221875, 1.9332268264771233]   
+		
+  }
+}
+
