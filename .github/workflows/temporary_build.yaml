@@ -23,5 +23,5 @@ jobs:
           source_dir: build
           container_name: $web
           connection_string: ${{ secrets.STORAGE_CONNECTION_STRING }}
-          sync: false
+          sync: 'false'
           overwrite: 'true'
